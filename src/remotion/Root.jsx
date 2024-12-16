@@ -3,6 +3,7 @@ import React, { useState, useMemo } from 'react';
 import { Composition } from 'remotion';
 import MyComposition from './MyComposition';
 
+
 export const RemotionRoot = () => {
   // Dynamically import image paths
   const imageContext = require.context('../../public/images', false, /\.png$/);
