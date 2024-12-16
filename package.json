@@ -1,0 +1,28 @@
+{
+  "name": "remotion",
+  "version": "0.1.0",
+  "private": true,
+ "scripts": {
+    "dev": "next dev -p 4000", 
+    "build": "next build", 
+    "start": "next start",
+    "remotion": "npx remotion studio src/remotion/index.js", 
+    "server": "node server.js" 
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.236",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "formidable": "^3.5.2",
+    "multer": "^1.4.5-lts.1",
+    "next": "15.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.236",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.0.4"
+  }
+}
